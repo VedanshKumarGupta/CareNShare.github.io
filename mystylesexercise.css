@@ -1,0 +1,76 @@
+body{
+background-color:PaleTurquoise;
+}
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  left:2%;
+  padding: 10px;
+  overflow: hidden;
+  background-color:MediumTurquoise;
+font-weight: bold;
+opacity:1;
+position: relative;
+  top: 0;
+  width: 95%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ transition: width 2s, height 4s;  #changes the size of icon as soon as the cursor is dragged on it
+ transition-timing-function: ease-in-out;  
+}
+
+
+
+li a:hover {
+  background-color: white;
+width: 150px;        #size ofoption will change to this much
+  height: 200px;
+}
+
+h1
+{
+Word-spacing: 2px;
+ text-shadow: 1px 1px 2px Cyan;
+font-family: Georgia;
+font-weight:Bold;
+font-size: 100px;
+margin-left:200px;
+margin-top:140px;
+
+
+}
+h4
+{text-align: centre;
+Word-spacing: 4px;
+ text-shadow: 2px 2px 5px Cyan;
+font-family: Georgia;
+font-size: 20px;
+margin-left:350px;
+margin-top:-80px;
+}
+.l {
+  border-radius: 18px;
+  border: 1px solid DarkCyan;
+  padding: 10px;
+  width: 150px;
+
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px DarkCyan;
+}
+p
+{
+margin-left:500px;
+
+}

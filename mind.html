@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mind relax</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    	* {box-sizing:border-box};
+.myslides{
+  height:10%;
+  text-align:center;
+  position:relative;
+  width:80%;
+  margin:2%;
+
+}
+.imagetext{
+  background: rgba(255,255,255,0.5);
+  position:absolute;
+  top:125%;
+  left:15%;
+  right:15%;
+  text-align:center;
+color:black;
+font-size:300%;
+font-weight:bold;
+padding:1% 1%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0 20px;
+  height:600px;
+}
+.column2{
+  float:left;
+  width:33.33%;
+  padding:20px 50px;
+  height:900px;
+  position:relative;
+}
+.column2 img{
+  width:100%;
+  height:100%;
+}
+.column2 .imagebutton{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,255,255,0.3);
+  color: black;
+  font-size: 250%;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 60%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 300%) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+   }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 20px 20px 0 rgba(1, 86, 107, 0.6);
+  padding: 5%;
+  text-align: center;
+  background:rgba(227, 249, 255,0.5);
+  height:95%;
+}
+.ptext{
+	text-align:center;
+	font-size:200%;
+	
+}
+
+h2{
+	text-align:center;
+	font-size:300%;
+}
+.writing{
+	background:	rgba(0,255,255,0.3);
+	opacity:50%;
+	color:black;
+	position:relative;
+}
+h3{
+	background-color:rgb(1, 86, 107);
+	font-size:250%;
+	color:white;
+}
+.cardtext{
+	color:black;
+	font-size:160%;
+	font-weight:bold;
+}
+.cardtexttext{
+	color:black;
+	font-size:150%;
+}
+.footer {
+  position:relative;
+  padding:3%;
+  width:100%;
+  text-align: center;
+  background-color: rgb(20,255,255);
+  color: black;
+  font-size:150%
+}
+a:link, a:visited {
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      margin-left: 50px;
+      }
+      
+      a:hover, a:active {
+        background-color: aqua;
+        color:black;
+      }
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+  <ul>
+    <img src="sitelogo.png" alt="HTML tutorial" style="float:left;width:70px;height:40px;">
+    <li><a href="Home.html">Log in/Sign Up</a></li>
+    <li><a href="mind.html">Relaxation</a></li>
+    <li><a href="exercises.html">Exercises</a></li>
+    <li><a href="doctors.html">Doctors</a></li>
+    <li><a href="Explore.html">Explore</a></li>
+    <li><a href="Home.html">Home</a></li>
+    </ul>
+
+
+	<!-- Slideshow container -->
+  <section>
+  <div class="mySlides">
+    <img src="photo1.webp" style="width:100%;height:40%;">
+    <div class="imagetext">Dont get panic and relax your mind</div>
+  </div>  
+  <div class="mySlides">
+    <img src="photo2.webp" style="width:100%;height:40%;">
+    <div class="imagetext">Dont feel left out and connect to different people</div>
+  </div>  
+  <div class="mySlides">
+    <img src="photo3.webp" style="width:100%;height:40%;">
+    <div class="imagetext">Share your daily tasks with people and get rated</div>
+  </div>
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+</script>
+<br>
+<br>
+<div class="writing">
+  <br>
+<br>	
+<h2><b><center>CHOOSE FROM THE CATEGORY BELOW</center></b></h2>
+<p class="ptext">Here are the following categories, choose among which you want to participate. The first category is of "Quizzing" where you can pariticipate in various age wise question and answer round and earn credits. The second category is of "Show your Skills" in which you can share your various skill contents like creativity,write-ups,or any other thing you want to show to others. Here you can rate others skills and get yours rated too to earn credits. The third category includes "Salute to Corona Warriors" where you can show your gratitude and respect to all the warriors of the time by sharing short notes or thankgiving messages. Also You can share your stories of how you are fighting the pandemic and let the world feel strong and focused. So lets begin the play by visiting the cards below.</p>
+<br>
+</div> 
+<p class="ptext"><b>ALL THE VERY BEST TO ALL! HAVE A GREAT EXPERIENCE AND GOOD CONNECTIONS!</b></p>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>QUIZZING</h3>
+      <p class="cardtext">"Relax your mind and credits"</p>
+      <p class="cardtexttext">Age group wise gaming and general quizzes are arranged to make yourselves feel joyful and relaxed</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>SHOW YOUR SKILLS</h3>
+      <p class="cardtext">"Share and get your work rated"</p>
+      <p class="cardtexttext">Share with others your talents and works and let your work be appreciated by all</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <h3>SALUTE TO CORONA WARRIORS</h3>
+      <p class="cardtext">"Thank the frontliners"</p>
+      <p class="cardtexttext">Lets thanks and respect our corona warriors and give all strength to face the situation wisely</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column2">
+    <img src="1.jpg" style="height:50%;">
+    <button class="imagebutton">Start now</button>
+  </div>
+
+  <div class="column2">
+   <img src="2.jpg"style="height:50%;">
+   <button class="imagebutton">Start now</button>
+  </div>
+  
+  <div class="column2">
+    <img src="3.jpg"style="height:50%;">
+    <button class="imagebutton">Start now</button>
+  </div>
+</div>
+<div class='footer'>
+  Contact<br>
+  <a href="#">support.carenshare@example.com</a>
+</div>
+
+</body>
+</html>
